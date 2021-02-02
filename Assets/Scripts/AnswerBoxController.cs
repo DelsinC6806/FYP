@@ -29,13 +29,16 @@ public class AnswerBoxController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (AnswerBox.activeInHierarchy == true)
         {
-            ControlChoice();
-            Answer();
             PlayerController.instance.DisableControl();
+        }
+
+        if (NPC.missionTriggered)
+        {
+            popAnswerBox();
         }
     }
 
@@ -47,37 +50,9 @@ public class AnswerBoxController : MonoBehaviour
         NoText.text = noTxt;
     }
 
-    void ControlChoice()
+    public void popAnswerBox()
     {
-        if(answer == 0)
-        {
-            yesBG.color = Color.green;
-            noBG.color = Color.white;
-        }
-        else
-        {
-            yesBG.color = Color.white;
-            noBG.color = Color.green;
-        }
+        AnswerBox.SetActive(true);
     }
 
-    public void Answer()
-    {
-        if (Input.GetKey(KeyCode.W))
-        {
-            answer -= 1;
-            if (answer <= 0)
-            {
-                answer = 1;
-            }
-
-        }else if (Input.GetKey(KeyCode.S))
-        {
-            answer += 1;
-            if (answer >= 1)
-            {
-                answer = 0;
-            }
-        }
-    }
 }

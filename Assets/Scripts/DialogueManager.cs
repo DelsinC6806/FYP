@@ -17,32 +17,38 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        dialogueBoxAnimator.SetBool("Talking", false);
-        
+        dialogueBoxAnimator.SetBool("Talking", false);    
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
-        sentences = new Queue<string>();
-        dialogueBoxAnimator.SetBool("Talking", true);
-        sentences.Clear();
-        NPC_name.text = dialogue.name;
-        foreach (string word in dialogue.sentences)
+        if (!NPC.missionTriggered)
         {
-            sentences.Enqueue(word);
+            sentences = new Queue<string>();
+            NPC.currentSentence = 0;
+            dialogueBoxAnimator.SetBool("Talking", true);
+            sentences.Clear();
+            NPC_name.text = dialogue.name;
+            foreach (string word in dialogue.sentences)
+            {
+                sentences.Enqueue(word);
+            }
+            DisplayNextSentence();
         }
-        DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
     {
-        if(sentences.Count == 0)
+        if (!NPC.missionTriggered)
         {
-            EndDialogue();
-            return;
+            if (sentences.Count == 0)
+            {
+                EndDialogue();
+                return;
+            }
+            StartCoroutine("Type", sentences.Dequeue());
+            NPC.currentSentence += 1;
         }
-        StartCoroutine("Type", sentences.Dequeue());
-        
     }
 
     IEnumerator Type(string phrase)

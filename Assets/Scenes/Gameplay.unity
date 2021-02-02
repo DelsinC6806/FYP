@@ -531,12 +531,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -6118,7 +6118,7 @@ PrefabInstance:
     - target: {fileID: 7269445499122548616, guid: 867b486f612e82341b56f1963c282cf2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -611
+      value: -554
       objectReference: {fileID: 0}
     - target: {fileID: 7269445499122548616, guid: 867b486f612e82341b56f1963c282cf2,
         type: 3}
@@ -7845,8 +7845,8 @@ MonoBehaviour:
     - "\u597D\u5427\uFF0C\u6211\u4E5F\u8981\u53BB\u627E\u66F4\u591A\u8CC7\u6E90\u53BB\u7D66\u5927\u5BB6\u4EAB\u7528\uFF0C\u5E74\u8F15\u4EBA\uFF0C\u4F60\u8981\u6BD4\u5FC3\u6A5F\uFF01"
     - "\u554A\uFF01 \u5FD8\u8A18\u544A\u8A34\u4F60\uFF0C\u6211\u53EA\u6703\u5728\u661F\u671F\u4E8C,\u56DB,\u516D\u624D\u4F86\u7267\u5834\u6D3E\u767C\u8CC7\u6E90\uFF0C\u4F60\u8981\u597D\u597D\u8A18\u4F4F\u5594,\u54C8\u54C8
       \u518D\u898B\u3002\uFF01"
+    trigger: -1
   interactText: {fileID: 1065212607}
-  trigger: 0
 --- !u!136 &702405135
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12391,12 +12391,12 @@ PrefabInstance:
     - target: {fileID: 224366108041803742, guid: 87d3a854bcdb80541821387af516cc51,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 979.9
+      value: 1863
       objectReference: {fileID: 0}
     - target: {fileID: 224366108041803742, guid: 87d3a854bcdb80541821387af516cc51,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 49.299988
+      value: 49.299805
       objectReference: {fileID: 0}
     - target: {fileID: 224366108041803742, guid: 87d3a854bcdb80541821387af516cc51,
         type: 3}
@@ -19077,11 +19077,11 @@ MonoBehaviour:
     - "\u5509~\u672C\u4F86\u524D\u5E7E\u5929\u6211\u9084\u5728\u9760\u8CE3\u9B5A\u7DAD\u6301\u751F\u8A08\uFF0C\u4F46\u6211\u5728\u51FA\u6D77\u7684\u6642\u5019\uFF0C\u7A81\u7136\u6709\u4E00\u500B\u5927\u6D77\u6D6A\u885D\u64CA\u4E86\u6211\u7684\u8239\uFF0C\u628A\u6211\u7684\u8239\u53CA\u6211\u7684\u8173\u5F04\u50B7\u4E86\uFF0C\u7136\u5F8C\u5E78\u597D\u6751\u5167\u7684\u4EBA\u628A\u6211\u6551\u56DE\u4F86\uFF0C\u4F46\u6211\u7684\u8173\u4EE5\u7D93\u65B7\u4E86\u3002\u3002\u3002\u73FE\u5728\u7D42\u8EAB\u4E0D\u80FD\u518D\u70BA\u5927\u5BB6\u91E3\u9B5A\u4E86\u3002\u3002\u3002\u3002\r\n"
     - "\u554A\uFF01 \u6211\u60F3\u5230\u4E00\u500B\u8FA6\u6CD5\uFF0C\u4E0D\u5982\u4F60\u4EE3\u6211\u53BB\u91E3\u9B5A\u5427\uFF01
       \u6211\u7D66\u4F60\u4E00\u4E9B\u9B5A\u7684\u76F8\u95DC\u77E5\u8B58\uFF0C\u7136\u5F8C\u4E86\u89E3\u5F8C\u4F60\u5C31\u51FA\u767C\u5427\uFF01"
-    - "\u7576\u7136\u6211\u4E0D\u6703\u8981\u4F60\u51FA\u6D77\uFF0C\u5728\u6211\u5011\u7267\u5834\u88CF\u7684\u9644\u8FD1\uFF0C\u6709\u4E00\u500B\u597D\u5C0F\u7684\u6E56\uFF0C\u5728\u88CF\u6709\u5F88\u591A\u4E0D\u540C\u7A2E\u985E\u7684\u9B5A\uFF0C\u4F60\u53EF\u4EE5\u53BB\u5C0B\u627E\u4E0B\u9019\u500B\u6C60\uFF0C\u4F60\u91E3\u56DE\u4F86\u518D\u8DDF\u6211\u8AAA\u3002\u5982\u679C\u4F60\u6709\u8208\u8DA3\u6211\u53EF\u4EE5\u8DDF\u4F60\u89E3\u8AAA\u4E00\u4E0B\u9019\u689D\u9B5A\u7684\u6B77\u53F2"
+    - "\u7576\u7136\u6211\u4E0D\u6703\u8981\u4F60\u51FA\u6D77\uFF0C\u5728\u6211\u5011\u7267\u5834\u88CF\u7684\u9644\u8FD1\uFF0C\u6709\u4E00\u500B\u597D\u5C0F\u7684\u6E56\uFF0C\u5728\u88CF\u6709\u5F88\u591A\u4E0D\u540C\u7A2E\u985E\u7684\u9B5A\uFF0C\u4F60\u53EF\u4EE5\u53BB\u5C0B\u627E\u4E0B\u9019\u500B\u6C60\uFF0C\u4F60\u91E3\u56DE\u4F86\u518D\u8DDF\u6211\u8AAA\u3002\u5982\u679C\u4F60\u6709\u8208\u8DA3\u6211\u53EF\u4EE5\u8DDF\u4F60\u89E3\u8AAA\u4E00\u4E0B\u9019\u689D\u9B5A\u7684\u6B77\u53F2\u3002"
     - "\u4F60\u628A\u9B5A\u91E3\u4F86\uFF0C\u6211\u7D66\u4F60\u4E00\u4E9B\u734E\u52F5\u7576\u4F5C\u56DE\u5831\u5427\uFF01\r\n\u8B9A\u5594\uFF01
       \u5B8C\u6210\u4EFB\u52D9\u4E86\uFF0C\u6240\u4EE5\u8A72\u7372\u5F97\u734E\u8CDE\u4E86\u5427\uFF01\r"
+    trigger: 4
   interactText: {fileID: 1065212607}
-  trigger: 0
 --- !u!136 &1648386617
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -20537,8 +20537,8 @@ MonoBehaviour:
     - "\u554A\uFF0C\u5EE2\u8A71\u5C11\u8AAA\u4E86\uFF01\u6211\u5011\u6162\u6162\u4F86\u4E86\u89E3\u5C31\u597D\u4E86\uFF01\uFF01\u53CD\u6B63\uFF0C\u5192\u96AA\u5BB6\u5404\u4F4D\u7684\u52AA\u529B\uFF0C\u624D\u80FD\u5920\u4EE4\u7267\u5834\u8CC7\u6E90\u5145\u8DB3\uFF01\u77E5\u9053\u55CE\uFF1F\u52A0\u6CB9\uFF01"
     - "\u4EE5\u4E0B\u6709\u4E9B\u4EFB\u52D9\uFF0C\u4F60\u8981\u63A5\u4E0B\u4F86\u55CE\uFF1F\r\n\u8ACB\u53BB\u6536\u96BB0/3
       \u6728\u6750 \u53CA 0/3\u6A39\u679D "
+    trigger: 5
   interactText: {fileID: 1065212607}
-  trigger: 0
 --- !u!54 &1773956138
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25160,12 +25160,12 @@ PrefabInstance:
     - target: {fileID: 4217046804588140473, guid: 5abfb71703d046241ba0cd18668eea8e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 369
+      value: 813
       objectReference: {fileID: 0}
     - target: {fileID: 4217046804588140473, guid: 5abfb71703d046241ba0cd18668eea8e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 355
+      value: 505
       objectReference: {fileID: 0}
     - target: {fileID: 4217046804588140473, guid: 5abfb71703d046241ba0cd18668eea8e,
         type: 3}
@@ -25279,7 +25279,7 @@ PrefabInstance:
     - target: {fileID: 4295217428875529539, guid: 5bcaa5c003862f849b1e16ca129f3154,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 594
+      value: 1054
       objectReference: {fileID: 0}
     - target: {fileID: 4295217428875529539, guid: 5bcaa5c003862f849b1e16ca129f3154,
         type: 3}
@@ -25719,12 +25719,12 @@ PrefabInstance:
     - target: {fileID: 8357610619074981274, guid: e539ff4bbb94dd3418dd53dcca2411bc,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -357
+      value: -803
       objectReference: {fileID: 0}
     - target: {fileID: 8357610619074981274, guid: e539ff4bbb94dd3418dd53dcca2411bc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 283
+      value: 441
       objectReference: {fileID: 0}
     - target: {fileID: 8357610619074981274, guid: e539ff4bbb94dd3418dd53dcca2411bc,
         type: 3}
@@ -26354,7 +26354,7 @@ PrefabInstance:
     - target: {fileID: 2255025439195329120, guid: 3784b6dbbffcb2b40aabb09aef401ff4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -295
+      value: -159
       objectReference: {fileID: 0}
     - target: {fileID: 2255025439195329120, guid: 3784b6dbbffcb2b40aabb09aef401ff4,
         type: 3}
